@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url('/assets/tulipanes/lluvia.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-attachment: fixed;
+  font-family: cursive;
+  font-style: italic;
+
+}
+body::before {
+  content: "";
+  background-color: rgba(0, 0, 0, .5); /* Cambia el último valor (0.5) para ajustar la opacidad del oscurecimiento */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Asegura que el pseudo-elemento esté detrás del contenido */
+}

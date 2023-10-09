@@ -1,0 +1,14 @@
+<div class="container-card">
+  <div class="card"
+*ngFor="let tulipan of tulipanes"
+>
+<button class="title-container boton" [routerLink]="['/tulipanes/', tulipan.id]">
+  <div class="title">{{tulipan.title}}</div>
+</button>
+<hr>
+  <div class="img">
+    <img [src]="tulipan.img" alt="">
+  </div>
+
+</div>
+</div>
