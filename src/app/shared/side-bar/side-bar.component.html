@@ -1,6 +1,13 @@
 <div class="container">
-  <h1 class="title">Anywhere</h1>
-  <div class="container-item"><h2 class="touch">Touch here!</h2>
-    <div class="touch"><h2>More</h2></div>
-  </div>
+  <h1 class="title"
+  [routerLink]="['/']"
+  >Anywhere</h1>
+  <li class="container-item"><h2 class="touch"
+    [routerLink]="['touch-here']"
+
+    >Touch here!</h2>
+    <div class="touch"
+    [routerLink]="['you']"
+    ><h2>More</h2></div>
+  </li>
 </div>

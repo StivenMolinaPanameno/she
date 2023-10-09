@@ -8,6 +8,8 @@ import { ForyouComponent } from './pages/tulipanes/foryou/foryou.component';
 import { SideBarComponent } from './shared/side-bar/side-bar.component';
 import { TodosComponent } from './pages/todos/todos.component';
 import { TouchHereComponent } from './pages/touch-here/touch-here.component';
+import { ImageComponent } from './pages/image/image.component';
+import { MoreComponent } from './pages/more/more.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { TouchHereComponent } from './pages/touch-here/touch-here.component';
     ForyouComponent,
     SideBarComponent,
     TodosComponent,
-    TouchHereComponent
+    TouchHereComponent,
+    ImageComponent,
+    MoreComponent
   ],
   imports: [
     BrowserModule,

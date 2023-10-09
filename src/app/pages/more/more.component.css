@@ -1,0 +1,15 @@
+.img{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.text{
+  color: #fff;
+}
+img{
+  justify-items: center;
+  width: 600px;
+
+}

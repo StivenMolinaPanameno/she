@@ -18,9 +18,11 @@ export class ForyouComponent implements OnInit{
   public tulipan?:Tulipanes;
   public id:string = 'No encontrado';
 
+
   ngOnInit(): void {
-    this.activateRoute.params.subscribe(params => {
-       this.id = params['id']; // 'id' debe coincidir con el nombre del parámetro en tu rut
+    this.activateRoute.params.subscribe((params) => {
+       this.id = params['id'];
+       console.log(params)// 'id' debe coincidir con el nombre del parámetro en tu rut
        this.getTulipan(this.id)
     });
   }
@@ -57,6 +59,11 @@ export class ForyouComponent implements OnInit{
       title: 'cada',
       img: 'assets/tulipanes/lluvia.jpg',
       id: 'lluvia.jpg'
+    },
+    {
+      title: 'una',
+      img: 'assets/tulipanes/moradas.jpg',
+      id: 'moradas.jpg'
     },
     {
       title: 'pero',

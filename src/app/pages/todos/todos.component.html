@@ -2,11 +2,13 @@
   <div class="card"
 *ngFor="let tulipan of tulipanes"
 >
-<button class="title-container boton" [routerLink]="['/tulipanes/', tulipan.id]">
+<button class="title-container boton" >
   <div class="title">{{tulipan.title}}</div>
 </button>
 <hr>
-  <div class="img">
+  <div class="img"
+  [routerLink]="['/tulipanes/image', tulipan.id]"
+  >
     <img [src]="tulipan.img" alt="">
   </div>
 

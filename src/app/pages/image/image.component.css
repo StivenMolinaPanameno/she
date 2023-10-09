@@ -1,0 +1,22 @@
+img{
+  transition: transform 0.5s;
+  /* object-fit:scale-down; */
+  /* min-width: 200px; */
+  /* min-block-size: 10px; */
+  max-block-size: 700px;
+  min-width: 100px;
+  border: .1px solid #111;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px rgba(255, 255, 255, .1);
+  /* flex: 1; */
+
+}
+.img{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+}

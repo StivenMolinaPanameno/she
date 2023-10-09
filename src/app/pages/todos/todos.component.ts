@@ -42,6 +42,11 @@ export class TodosComponent {
       id: 'lluvia.jpg'
     },
     {
+      title: 'una',
+      img: 'assets/tulipanes/moradas.jpg',
+      id: 'moradas.jpg'
+    },
+    {
       title: 'pero',
       img: 'assets/tulipanes/naranja.jpg',
       id: 'naranja.jpg'
@@ -58,6 +63,11 @@ export class TodosComponent {
       title: 'mucho',
       img: 'assets/tulipanes/ultima.jpg',
       id: 'ultima.jpg'
+    },
+    {
+      title: 'presioname',
+      img: 'assets/tulipanes/presioname.jpg',
+      id: 'presioname.jpg'
     },
 
   ]
